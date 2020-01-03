@@ -1,0 +1,72 @@
+.icon {
+  background: url("logo.png");
+  height: 20px;
+  width: 20px;
+  display: block;
+  /* Other styles here */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  border:1px solid black;
+}
+
+nav li {
+  float: left;
+  border:1px solid black;
+}
+
+nav li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: blue;
+}
+
+.left-layout {
+  width: : 25%;
+  float: left;
+
+  
+}
+
+.right-layout {
+  width:  75%;
+  float: right;
+ }
+
+main {
+  height: 1000px;
+  width: 100%;
+}
+
+.img-container {
+  float: right;
+  width: 33.33333%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+.div_header1{
+  display: inline-flex;
+}
